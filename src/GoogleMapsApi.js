@@ -30,7 +30,6 @@ class GoogleMapsApi {
    * @this {_GoogleMapsApi}
    */
   load() {
-    console.log('load called');
     if (!this.promise) {
       this.promise = new Promise(resolve => {
         this.resolve = resolve;
@@ -40,7 +39,6 @@ class GoogleMapsApi {
           script.src = `//maps.googleapis.com/maps/api/js?key=${this.apiKey}&callback=${this.callbackName}`;
           script.async = true;
           document.body.append(script);
-          console.log('api added succesfully');
         } else {
           this.resolve();
         }
