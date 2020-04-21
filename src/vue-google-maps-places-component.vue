@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div id="map"></div>
-    test
+    <div :options="{}" id="map"></div>
     <!-- <button @click="increment()">increment ({{ counter }})</button> -->
   </div>
 </template>
