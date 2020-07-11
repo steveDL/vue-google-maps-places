@@ -17,8 +17,3 @@
 //   }
  };
 </script>
-<style lang="css">
-#map {
-  height: 350px;
-}
-</style>
