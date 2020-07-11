@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import VuePlugin from 'vue-plugin';
+import VuePlugin from '../dist/vue-plugin.js';
 
 Vue.use(VuePlugin);
 
